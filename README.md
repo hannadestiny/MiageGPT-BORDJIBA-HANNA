@@ -18,7 +18,7 @@ Pour installer et exécuter ce projet, suivez les étapes ci-dessous :
     ```
 3. **Naviguer dans le répertoire du serveur** :
     ```bash
-    cd server
+    cd  MiageGPT/server
     ```
 4. **Configuration** : Configurez votre clé API OpenAI dans le fichier `config.js`.
 5. **Lancer le serveur** :
