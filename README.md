@@ -1,46 +1,65 @@
-# TP4_IA_M1_MIAGE_2023_2024
-## MiageGPT-BORDJIBA-HANNA
+# MiageGPT avec Dall-E
 
-Auteurs:
-Ce projet a été développé par: 
--Rania BORDJIBA
--Destiny HANNA
+## Auteurs
 
-Installation et Exécution:
--Assurez-vous d'avoir Node.js installé sur votre machine.
--Installez les dépendances avec npm install : npm install express multer openai
--cd server
--Configurez votre clé API OpenAI dans le fichier config.js.
--Lancez le serveur avec node server.js.
--Accédez à l'application via votre navigateur à l'adresse http://localhost:3001
+Ce projet a été développé par :
+- **Rania BORDJIBA**
+- **Destiny HANNA**
 
-Description:
-Ce projet consiste en une application web interactive nommée "MiageGPT avec Dall-E". Elle permet aux utilisateurs de converser avec un modèle de langage GPT-3.5 de OpenAI et de générer des images avec Dall-E en utilisant des prompts spécifiques. L'interface utilisateur comprend également la possibilité de créer, renommer et supprimer des conversations ainsi que des fonctionnalités d'interaction vocale.
+## Installation et Exécution
 
-Fonctionnalités Principales: 
+Pour installer et exécuter ce projet, suivez les étapes ci-dessous :
 
-1-Chat Interactif:
-->Les utilisateurs peuvent envoyer des messages qui sont complétés par GPT-3.5.
-->Les réponses peuvent inclure des messages textuels et des images générées par Dall-E.
-->Le endpoint /speech permet de générer des réponses audio à partir de prompts textuels.
-->Le endpoint /image permet de générer des images à partir de descriptions textuelles.
+1. **Prérequis** : Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
+2. **Installation des dépendances** : 
+    ```bash
+    npm install express multer openai
+    ```
+3. **Naviguer dans le répertoire du serveur** :
+    ```bash
+    cd server
+    ```
+4. **Configuration** : Configurez votre clé API OpenAI dans le fichier `config.js`.
+5. **Lancer le serveur** :
+    ```bash
+    node server.js
+    ```
+6. **Accéder à l'application** : Ouvrez votre navigateur et rendez-vous à l'adresse [http://localhost:3001](http://localhost:3001).
 
-2-Gestion des Conversations:
-->Création de nouvelles conversations avec des noms personnalisés.
-->Renommage et suppression de conversations existantes.
-->Historique des conversations sauvegardé localement dans le navigateur.
+## Description
 
-3-Interaction Vocale:
-->Possibilité d'écouter les réponses générées par le modèle à l'aide de la synthèse vocale du navigateur.
+"**MiageGPT avec Dall-E**" est une application web interactive permettant aux utilisateurs de converser avec un modèle de langage GPT-3.5 de OpenAI et de générer des images à l'aide de Dall-E en utilisant des prompts spécifiques. L'interface utilisateur inclut des fonctionnalités de gestion des conversations et d'interaction vocale.
 
-4-Prompts Pré-définis:
-->Utilisation de prompts pré-définis pour faciliter l'interaction sur des sujets spécifiques comme l'IA et les lieux touristiques.
+## Fonctionnalités Principales
 
-Technologies Utilisées:
+### 1. Chat Interactif
 
--Frontend: HTML, CSS, JavaScript (Vanilla JS)
--Backend: Node.js, Express.js
--APIs: OpenAI API (pour GPT-3.5 et Dall-E)
--Librairies: Multer (pour le traitement des données de formulaire)
+- **Envoi de messages** : Les utilisateurs peuvent envoyer des messages et recevoir des réponses complétées par GPT-3.5.
+- **Réponses multimodales** : Les réponses peuvent inclure du texte et des images générées par Dall-E.
+- **Synthèse vocale** : Le endpoint `/speech` permet de générer des réponses audio à partir de prompts textuels.
+- **Génération d'images** : Le endpoint `/image` permet de générer des images à partir de descriptions textuelles.
 
+### 2. Gestion des Conversations
 
+- **Création** : Créez de nouvelles conversations avec des noms personnalisés.
+- **Renommage et Suppression** : Renommez ou supprimez des conversations existantes.
+- **Historique** : L'historique des conversations est sauvegardé localement dans le navigateur.
+
+### 3. Interaction Vocale
+
+- **Synthèse vocale** : Écoutez les réponses générées par le modèle grâce à la synthèse vocale intégrée du navigateur.
+
+### 4. Prompts Pré-définis
+
+- **Facilitation de l'interaction** : Utilisation de prompts pré-définis pour des sujets spécifiques comme l'IA et les lieux touristiques.
+
+## Technologies Utilisées
+
+- **Frontend** : HTML, CSS, JavaScript (Vanilla JS)
+- **Backend** : Node.js, Express.js
+- **APIs** : OpenAI API (pour GPT-3.5 et Dall-E)
+- **Librairies** : Multer (pour le traitement des données de formulaire)
+
+---
+
+Pour plus de détails et des instructions supplémentaires, veuillez consulter la documentation fournie dans le projet. Nous espérons que vous apprécierez utiliser "MiageGPT avec Dall-E" autant que nous avons apprécié le développer !
