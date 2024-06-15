@@ -1,9 +1,10 @@
 # TP4_IA_M1_MIAGE_2023_2024
+## MiageGPT-BORDJIBA-HANNA
 
 Auteurs:
-Ce projet a été développé par:
-->Rania BORDJIBA
-->Destiny HANNA
+Ce projet a été développé par: 
+-Rania BORDJIBA
+-Destiny HANNA
 
 Installation et Exécution:
 -Assurez-vous d'avoir Node.js installé sur votre machine.
@@ -42,5 +43,4 @@ Technologies Utilisées:
 -APIs: OpenAI API (pour GPT-3.5 et Dall-E)
 -Librairies: Multer (pour le traitement des données de formulaire)
 
-# MiageGPT-BORDJIBA-HANNA
-# MiageGPT-BORDJIBA-HANNA
+
