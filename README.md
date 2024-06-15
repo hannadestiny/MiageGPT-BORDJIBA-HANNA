@@ -61,6 +61,3 @@ Pour installer et exécuter ce projet, suivez les étapes ci-dessous :
 - **APIs** : OpenAI API (pour GPT-3.5 et Dall-E)
 - **Librairies** : Multer (pour le traitement des données de formulaire)
 
----
-
-Pour plus de détails et des instructions supplémentaires, veuillez consulter la documentation fournie dans le projet. Nous espérons que vous apprécierez utiliser "MiageGPT avec Dall-E" autant que nous avons apprécié le développer !
